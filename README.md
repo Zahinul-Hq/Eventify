@@ -60,21 +60,9 @@ A full-stack web application for end-to-end event planning and management. Custo
 
 The system is built around **6 core entities** connected via a relational database:
 
-```
-Admin ──────── manages ──────── Venue
-  │                               │
-  │ approves                  can host
-  │                               │
-Customer ──── creates ────── Reservation ──── associated with ──── Event
-                                  │
-                               has/have
-                                  │
-                              Payment       Staff (assigned via Admin)
-```
-
 **ER Diagram:**
 
-![ER Diagram](admin/uploads/diagramjpgedited.jpg)
+![ER Diagram](docs/er_diagram.jpg)
 
 ---
 
