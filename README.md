@@ -210,8 +210,8 @@ event_management/
 
 | Page | Description |
 |------|-------------|
-| ![Homepage](images/easy_booking.jpg) | **Homepage** — Eventify landing page |
-| ![Manage](images/manage_reservation.png) | **Customer Portal** — Reservation management |
+| ![Homepage](images/Homepage_eventify.png) | **Homepage** — Eventify landing page |
+| ![Manage](images/Customer_Dashboard.png) | **Customer Portal** — Reservation management |
 
 ---
 
