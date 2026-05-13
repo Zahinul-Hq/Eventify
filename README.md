@@ -62,7 +62,7 @@ The system is built around **6 core entities** connected via a relational databa
 
 **ER Diagram:**
 
-![ER Diagram](docs/er_diagram.jpg)
+![ER Diagram](images/er_diagram.jpg)
 
 ---
 
