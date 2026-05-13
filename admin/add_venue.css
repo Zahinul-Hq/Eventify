@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px; /* Reduced max-width for a more compact form */
+    margin: 20px auto; /* Reduced margin for closer to the viewport edges */
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.page-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px; /* Reduced margin for a more compact title */
+}
+
+/* Form Styles */
+.venue-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Reduced margin for form groups */
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Reduced margin for labels */
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px; /* Reduced padding for a more compact input */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Smaller border radius for a more compact look */
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0,123,255,0.5); /* Reduced shadow for a more compact look */
+    outline: none;
+}
+
+/* File Input */
+input[type="file"] {
+    padding: 8px; /* Reduced padding for file input */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 10px; /* Reduced margin for file input */
+}
+
+input[type="file"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0,123,255,0.5);
+    outline: none;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 8px 15px; /* Reduced padding for a more compact button */
+    border: none;
+    border-radius: 4px; /* Smaller border radius for a more compact button */
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    font-size: 14px; /* Slightly smaller font size for buttons */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Venue Image Styles */
+.venue-image-thumbnail {
+    max-width: 80px; /* Smaller thumbnail size for a more compact look */
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Additional Styles */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

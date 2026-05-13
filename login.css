@@ -1,0 +1,26 @@
+
+.login-section {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.login-section p {
+    font-size: 0.95rem; 
+    color: #333;
+    display: inline;
+}
+
+.btn-login {
+    background-color:#e9ecef ; 
+    color: #007bff;
+    padding: 1px 5px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn-login:hover {
+    background-color: #e9ecef;
+}

@@ -1,0 +1,31 @@
+# Database configuration (contains sensitive credentials)
+config.php
+
+# XAMPP / local server files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Uploaded user files (runtime)
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+uploads/*.gif
+uploads/*.pdf
+!uploads/.gitkeep
+admin/uploads/*.jpg
+admin/uploads/*.jpeg
+admin/uploads/*.png
+!admin/uploads/.gitkeep
+staff/uploads/*.jpg
+staff/uploads/*.jpeg
+staff/uploads/*.png
+!staff/uploads/.gitkeep

@@ -1,0 +1,176 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+
+.logo span {
+    color: #0056b3;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav .nav-link {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.admin-login-text {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.admin-login-text:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(to bottom right, #ffffff, #e9ecef);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-staff {
+    background-color: #0056b3; /* Deeper blue for Staff Registration */
+}
+
+.btn-staff:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
+
+.features-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    text-align: center;
+    margin: 15px;
+    flex: 1 1 30%;
+    max-width: 300px;
+}
+
+.feature-card img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.feature-card h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* New section for customer login */
+.login-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-section p {
+    font-size: 0.9rem; /* Smaller font size for the "Already a customer?" text */
+    color: #333;
+}
+
+.btn-login {
+    background-color: #007bff; /* Blue background color for the login button */
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
